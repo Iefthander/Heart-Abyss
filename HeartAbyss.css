@@ -10,9 +10,12 @@ body{
 	background: ;
 	width: 1000px;
 	height: 300px;
-
+font-family: 'Press Start 2P', cursive;
+	font-size: 18px;
+	line-height: 23px;
 }
 .textic{
+font-family: 'Press Start 2P', cursive;
 	text-align: center;
 	line-height: 20px;
 	font-size: 20px;
@@ -98,19 +101,20 @@ ul li {
 .video1{
 }
 .lastnews{
-	font-size: 35px;
-
-
+	font-size: 40px;
+	font-family: 'Press Start 2P', cursive;
 }
 .section a{
 	text-decoration: undereline;
 	color:  green;
-
-
 }
 .section a:hover {
 	color: white;
-
+}
+.pred{
+	font-family: 'Press Start 2P', cursive;
+	font-size: 18px;
+	line-height: 23px;
 }
 .arts a{
 	text-decoration: undereline;
@@ -121,7 +125,13 @@ ul li {
 	color: white;
 
 }
+.bebraa{
+	font-weight: lighter;
+}
 .arts{
+	font-family: 'Press Start 2P', cursive;
+	font-size: 18px;
+	line-height: 23px;
 	text-align: right;
 	padding-right: 50px;
 	padding-top: 100px;
@@ -135,15 +145,18 @@ ul li {
 	transition: 0.1s;
 }
 .blog{
+	font-family: 'Press Start 2P', cursive;
+	font-weight: lighter;
 	
 }
+
 .heartabyss{
 	font-family: none;
 	font-weight: normal;
 	font-size: 20px;
 	line-height: 20px;
-}
 
+}
 .perevertish{
 	transform: scale(-1, 1);
 
@@ -198,4 +211,27 @@ margin-top: -40px ;}
 .vetka12{
 	width: 20em;
 	
+}
+.blog a:hover{
+	transition: 0.2s;
+}
+
+a.button7 {
+  font-weight: 1500;
+  width: 1000px;
+  height: 1000px;
+  color: white;
+  text-decoration: none;
+  padding: .8em 1em calc(.8em + 3px);
+  border-radius: 3px;
+  background: green;
+  box-shadow: 0 -3px rgb(53,167,110) inset;
+  transition: 0.2s;
+  font-family: 'Press Start 2P', cursive;
+} 
+a.button7:hover {
+ background: rgb(53, 167, 110); }
+a.button7:active {
+  background: rgb(33,147,90);
+  box-shadow: 0 3px rgb(33,147,90) inset;
 }
