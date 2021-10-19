@@ -77,8 +77,6 @@ font-family: 'Press Start 2P', cursive;
 	color: white;
 	transition: 0.5s;
 }
-
-}
 ul {
     margin: 0; /* Обнуляем значение отступов */
     padding: 4px; /* Значение полей */
@@ -134,6 +132,10 @@ ul li {
 	padding-top: 100px;
 
 }
+.header{
+	padding-top: 19px;
+	padding-right: 0px;
+}
 .header-img{
 	margin-top: -80px;
 }
@@ -146,8 +148,14 @@ ul li {
 	font-weight: lighter;
 	
 }
-.art{
-	font-family: 'Press Start 2P', cursive;
+.perspnaji{
+	text-align: center;
+}
+.lacation{
+	text-align: center;
+}
+.posterstext{
+	text-align: center;
 }
 .heartabyss{
 	font-family: none;
@@ -180,7 +188,6 @@ margin-top: -40px ;}
     width: 5px;
     height: 1px;
 }
-
 /* Трек поле скроллбара */
 ::-webkit-scrollbar-track {
     -webkit-box-shadow: green; 
@@ -234,3 +241,27 @@ a.button7:active {
   background: rgb(33,147,90);
   box-shadow: 0 3px rgb(33,147,90) inset;
 }
+.art a{
+				color: white;
+				font-family: 'Press Start 2P', cursive;
+				text-decoration: none; /*убираем подчеркивание текста ссылок*/
+				}
+				.art{
+				padding-top: 20px;
+				padding-left: 0px;
+				font-size:15px;
+				color: white;
+			font-family: 'Press Start 2P', cursive;
+				border: 3px solid #002408;
+				}
+				.art-img{
+				}
+				.scale {border: 3px solid black;
+				}
+				.scale {
+					}
+				.scale:hover {
+					transform: scale(1.5); /* Увеличиваем масштаб */
+					transition: 0.2s; /* Время эффекта */
+				
+					}
